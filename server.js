@@ -4,7 +4,7 @@ const server = express();
 const port = 4000 | 1337
 server.use(express.urlencoded({extended: true}));
 server.use(express.json())
-
+//this is a simple express server to get the news api information
 // ... add your routes and middleware ...
 server.get('/news', async (req, res) => {
     try {
